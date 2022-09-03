@@ -1,0 +1,418 @@
+:root {
+	--pink: #ea606f;
+}
+
+.pink-back {
+	background-color: #ea606f;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+:root {
+	--animate-duration: 800ms;
+	--animate-delay: 0.9s;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.bottom-content {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 2rem;
+	margin: auto;
+	width: 100%;
+}
+
+.menu-btn {
+	color: #ea606f;
+	background-color: #fff;
+	margin-bottom: 2rem;
+	border-radius: 7px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	box-shadow: 2px 2px 10px rgb(0 0 0 / 24%);
+	margin-bottom: 20 px;
+}
+
+.name-line {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* .swipe-line {
+	margin-bottom: 2rem;
+} */
+
+.pg3-top-img-area {
+	width: 100%;
+	/* height: 250px; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50%;
+	position: relative;
+}
+
+.pg3-content-area {
+	padding: 3rem 2rem 2rem 2rem;
+	height: 50%;
+	position: relative;
+	/* margin-bottom: 1rem; */
+}
+
+.pg3-line-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pg3-line-1-left {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.pg3-line-1-right {
+	color: #ea606f;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.pg3-line-2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+.pg3-line-2-content {
+	font-size: 0.7rem;
+	text-align: justify;
+}
+
+.pg3-button-area {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2rem;
+}
+.arrow-back {
+	margin-left: 35px;
+	color: var(--pink);
+}
+
+.input-group {
+	width: 48% !important;
+	box-shadow: 0px 5px 10px #d6d4d4, -10px 8px 15px #fafafa,
+		10px 8px 15px #fafafa;
+}
+
+.quantity-field {
+	border: none !important;
+	text-align: center !important;
+	font-weight: bold;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.quantity-left-minus {
+	background-color: #fff;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	height: 2rem;
+}
+
+.quantity-right-plus {
+	background-color: #fff;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	height: 2rem;
+}
+
+.quantity-text-minus {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 0.75;
+}
+
+.quantity-text-plus {
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.pg3-addCart-btn {
+	width: 48%;
+	z-index: 100;
+	box-shadow: 0px 5px 10px #d6d4d4, -10px 8px 15px #fafafa,
+		10px 8px 15px #fafafa;
+}
+
+.fa-shopping-cart {
+	font-size: 0.8rem;
+	padding-left: 0.5rem;
+}
+
+.add-to-cart-btn {
+	background-color: #ea606f;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.7rem;
+	width: 100%;
+	height: 2rem;
+}
+
+/* 2nd page styling */
+
+.all-content {
+	overflow: hidden !important;
+}
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 25px;
+}
+.navbar-btn {
+	margin-left: 15px;
+	opacity: 0;
+}
+.next-btn {
+	margin-right: 15px;
+}
+.menu-heading {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	color: var(--pink) !important;
+	font-family: "Roboto", sans-serif;
+}
+
+.slide-container {
+	margin-top: 20px;
+}
+.menuslide {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+	border: none !important;
+	outline: 0px solid !important;
+	align-items: center;
+}
+.menuslide:focus {
+	border: none !important;
+}
+.menuslide:active {
+	border: none !important;
+}
+.slick-dots {
+	display: none !important;
+}
+.menu-subheading {
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	font-weight: medium;
+	margin-top: 10px;
+}
+/* .menu-img {
+	width: 100%;
+	height: 100px;
+} */
+
+.menu-img {
+	width: 150px;
+	height: 110px;
+	object-fit: cover;
+	border-radius: 7px;
+}
+/* .menu-item-img {
+	width: 100%;
+	height: 110px;
+} */
+
+.menu-item-img {
+	height: 110px;
+	object-fit: cover;
+}
+@media (max-width: 480px) {
+	.menu-img {
+		width: 130px;
+		height: 100px;
+	}
+	.active-hr {
+		width: 130px !important;
+	}
+}
+@media (max-width: 425px) {
+	.menu-img {
+		width: 110px;
+		height: 88px;
+	}
+	.active-hr {
+		width: 110px !important;
+	}
+}
+
+@media (max-width: 398px) {
+	.item-card {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+}
+@media (max-width: 388px) {
+	.menu-item-img {
+		width: 120%;
+		height: 110px;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+}
+@media (max-width: 360px) {
+	.menu-img {
+		width: 100px;
+		height: 88px;
+	}
+	.active-hr {
+		width: 100px !important;
+	}
+}
+.h3-active {
+	color: var(--pink);
+	border: none !important;
+}
+.active-hr {
+	border: 2px solid var(--pink);
+	width: 150px;
+	border-radius: 10px;
+}
+.item-heading {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	color: #000000;
+	font-family: "Roboto", sans-serif;
+	margin-top: 30px;
+}
+.item-c-heading {
+	text-align: right;
+	font-weight: 600;
+	font-size: 15px;
+	color: #000000;
+	font-family: "Roboto", sans-serif;
+}
+.item-card {
+	background-color: #ffffff;
+	border-radius: 7px;
+
+	padding: 20px 20px;
+	padding-bottom: 10px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.item-price {
+	color: var(--pink);
+	text-align: right;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin-bottom: 0.5rem;
+}
+.item-description {
+	text-align: right;
+	height: 45px;
+	overflow: hidden;
+	font-size: 10px;
+
+	display: flex;
+}
+.scroll-item {
+	overflow-y: scroll;
+	height: 550px;
+	padding-top: 10px;
+}
+.slick-active {
+	border: none !important;
+}
+.slick-active:focus {
+	border: none !important;
+}
+.slick-active:active {
+	border: none !important;
+}
+.slick-slide {
+	outline: none !important;
+}
+.slick-slide:focus {
+	outline: none !important;
+}
+
+.page3-content-container {
+	overflow-y: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f3f9;
+	overflow: scroll;
+	position: absolute;
+}
+
+.page3-content-container::-webkit-scrollbar {
+	display: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: var(--pink);
+}
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	color: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+	width: 0;
+	color: #ff0000;
+}
+
+/* Swipe Button Styling Start frm here*/
+.swipeItem {
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+	outline: 1px solid black;
+}
+
+.swipeItem-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.swipeList {
+	list-style-type: none;
+}
+
+.swipeList-addButton {
+	font-size: 30px;
+	text-align: center;
+	width: 350px;
+	height: 65px;
+	padding: auto;
+	background-color: white;
+	border: none;
+	outline: 1px solid black;
+}
